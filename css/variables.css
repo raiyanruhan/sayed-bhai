@@ -1,0 +1,41 @@
+/* CSS Variables for consistent theming and easy customization */
+:root {
+    /* Colors - Light Theme */
+    --color-background: #ffffff;
+    --color-foreground: #333333;
+    --color-accent: #3b82f6;
+    --color-gray: #f3f4f6;
+    
+    /* Typography */
+    --font-serif: 'Libre Baskerville', serif;
+    --font-sans: 'Inter', sans-serif;
+    
+    /* Spacing */
+    --space-xs: 0.25rem;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 2rem;
+    --space-xl: 4rem;
+    
+    /* Transitions */
+    --transition-150: 150ms ease-in-out;
+}
+
+/* Dark Theme Variables */
+.dark-theme {
+    --color-background: #111827;
+    --color-foreground: #f3f4f6;
+    --color-gray: #1f2937;
+}
+
+/* Apply variables to Tailwind-like utility classes */
+.bg-background { background-color: var(--color-background); }
+.text-foreground { color: var(--color-foreground); }
+.text-accent { color: var(--color-accent); }
+.bg-accent { background-color: var(--color-accent); }
+.bg-gray { background-color: var(--color-gray); }
+
+.font-serif { font-family: var(--font-serif); }
+.font-sans { font-family: var(--font-sans); }
+
+.transition-150 { transition: var(--transition-150); }

@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Project One",
+        "description": "A brief description of what this project is about and the value it provided.",
+        "image": "/assets/images/project-thumbnails/project1.jpg",
+        "link": "#",
+        "tags": ["Design", "Development"]
+    },
+    {
+        "title": "Project Two",
+        "description": "Another project description highlighting different skills and outcomes.",
+        "image": "/assets/images/project-thumbnails/project2.jpg",
+        "link": "#",
+        "tags": ["Strategy", "Branding"]
+    },
+    {
+        "title": "Project Three",
+        "description": "Final project example showing range of capabilities and expertise.",
+        "image": "/assets/images/project-thumbnails/project3.jpg",
+        "link": "#",
+        "tags": ["Consulting", "UX"]
+    }
+]
